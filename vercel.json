@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "installCommand": "npm install",
+  "installCommand": "npm install && chmod -R 755 node_modules/.bin",
   "framework": "create-react-app",
   "outputDirectory": "build",
   "routes": [
